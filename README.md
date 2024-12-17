@@ -60,9 +60,13 @@ Our demo illustrates the following:
    
     ### Step 2: Kubernetes Demo
 1.cd ../springboot-app1
+
 2. kubectl apply -f k8s-deployment.yaml
+   
 3. kubectl get pods
+   
 4. kubectl expose deployment springboot-app1 --type=LoadBalancer --name=springboot-app1-service
+
 5. minikube service springboot-app1
 
 

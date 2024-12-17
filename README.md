@@ -59,7 +59,7 @@ Our demo illustrates the following:
 5. Open your browser and navigate to http://localhost:8080 to view the running application.
    
 ### Step 2: Kubernetes Demo
-1.cd ../springboot-app1
+ 1.cd ../springboot-app1
 
 2. kubectl apply -f k8s-deployment.yaml
    

@@ -49,25 +49,25 @@ Our demo illustrates the following:
 ---
 
 ### Step 1: Docker Demo
-1. Clone this repository:
+   1. Clone this repository:
    ```bash
    git clone <repository-url>
    
-2. cd demo-app-post
-3. docker build -t demo-app-post 
-4.docker run -p 8080:8080 demo-app-post
-5. Open your browser and navigate to http://localhost:8080 to view the running application.
+   2. cd demo-app-post
+   3. docker build -t demo-app-post 
+   4.docker run -p 8080:8080 demo-app-post
+   5. Open your browser and navigate to http://localhost:8080 to view the running application.
    
 ### Step 2: Kubernetes Demo
- 1.cd ../springboot-app1
+    1.cd ../springboot-app1
 
-2. kubectl apply -f k8s-deployment.yaml
+   2. kubectl apply -f k8s-deployment.yaml
    
-3. kubectl get pods
+   3. kubectl get pods
    
-4. kubectl expose deployment springboot-app1 --type=LoadBalancer --name=springboot-app1-service
+   4. kubectl expose deployment springboot-app1 --type=LoadBalancer --name=springboot-app1-service
 
-5. minikube service springboot-app1
+   5. minikube service springboot-app1
 
 
 
